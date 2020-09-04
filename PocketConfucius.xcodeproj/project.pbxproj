@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0E8DE8024EF2BBE00D75701 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E8DE7F24EF2BBE00D75701 /* AppDelegate.swift */; };
+		A0E8DE8224EF2BBE00D75701 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E8DE8124EF2BBE00D75701 /* SceneDelegate.swift */; };
+		A0E8DE8424EF2BBE00D75701 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E8DE8324EF2BBE00D75701 /* ViewController.swift */; };
+		A0E8DE8724EF2BBE00D75701 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0E8DE8524EF2BBE00D75701 /* Main.storyboard */; };
+		A0E8DE8924EF2BC100D75701 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0E8DE8824EF2BC100D75701 /* Assets.xcassets */; };
+		A0E8DE8C24EF2BC100D75701 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0E8DE8A24EF2BC100D75701 /* LaunchScreen.storyboard */; };
+		A0E8DE9724EF2BC100D75701 /* PocketConfuciusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E8DE9624EF2BC100D75701 /* PocketConfuciusTests.swift */; };
+		A0E8DEA224EF2BC100D75701 /* PocketConfuciusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E8DEA124EF2BC100D75701 /* PocketConfuciusUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0E8DE9324EF2BC100D75701 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0E8DE7424EF2BBE00D75701 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0E8DE7B24EF2BBE00D75701;
+			remoteInfo = PocketConfucius;
+		};
+		A0E8DE9E24EF2BC100D75701 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0E8DE7424EF2BBE00D75701 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0E8DE7B24EF2BBE00D75701;
+			remoteInfo = PocketConfucius;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0E8DE7C24EF2BBE00D75701 /* PocketConfucius.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketConfucius.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0E8DE7F24EF2BBE00D75701 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A0E8DE8124EF2BBE00D75701 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A0E8DE8324EF2BBE00D75701 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A0E8DE8624EF2BBE00D75701 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0E8DE8824EF2BC100D75701 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0E8DE8B24EF2BC100D75701 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0E8DE8D24EF2BC100D75701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0E8DE9224EF2BC100D75701 /* PocketConfuciusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketConfuciusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0E8DE9624EF2BC100D75701 /* PocketConfuciusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketConfuciusTests.swift; sourceTree = "<group>"; };
+		A0E8DE9824EF2BC100D75701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0E8DE9D24EF2BC100D75701 /* PocketConfuciusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PocketConfuciusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0E8DEA124EF2BC100D75701 /* PocketConfuciusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketConfuciusUITests.swift; sourceTree = "<group>"; };
+		A0E8DEA324EF2BC100D75701 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0E8DE7924EF2BBE00D75701 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0E8DE8F24EF2BC100D75701 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0E8DE9A24EF2BC100D75701 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0E8DE7324EF2BBE00D75701 = {
+			isa = PBXGroup;
+			children = (
+				A0E8DE7E24EF2BBE00D75701 /* PocketConfucius */,
+				A0E8DE9524EF2BC100D75701 /* PocketConfuciusTests */,
+				A0E8DEA024EF2BC100D75701 /* PocketConfuciusUITests */,
+				A0E8DE7D24EF2BBE00D75701 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0E8DE7D24EF2BBE00D75701 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0E8DE7C24EF2BBE00D75701 /* PocketConfucius.app */,
+				A0E8DE9224EF2BC100D75701 /* PocketConfuciusTests.xctest */,
+				A0E8DE9D24EF2BC100D75701 /* PocketConfuciusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0E8DE7E24EF2BBE00D75701 /* PocketConfucius */ = {
+			isa = PBXGroup;
+			children = (
+				A0E8DE7F24EF2BBE00D75701 /* AppDelegate.swift */,
+				A0E8DE8124EF2BBE00D75701 /* SceneDelegate.swift */,
+				A0E8DE8324EF2BBE00D75701 /* ViewController.swift */,
+				A0E8DE8524EF2BBE00D75701 /* Main.storyboard */,
+				A0E8DE8824EF2BC100D75701 /* Assets.xcassets */,
+				A0E8DE8A24EF2BC100D75701 /* LaunchScreen.storyboard */,
+				A0E8DE8D24EF2BC100D75701 /* Info.plist */,
+			);
+			path = PocketConfucius;
+			sourceTree = "<group>";
+		};
+		A0E8DE9524EF2BC100D75701 /* PocketConfuciusTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0E8DE9624EF2BC100D75701 /* PocketConfuciusTests.swift */,
+				A0E8DE9824EF2BC100D75701 /* Info.plist */,
+			);
+			path = PocketConfuciusTests;
+			sourceTree = "<group>";
+		};
+		A0E8DEA024EF2BC100D75701 /* PocketConfuciusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A0E8DEA124EF2BC100D75701 /* PocketConfuciusUITests.swift */,
+				A0E8DEA324EF2BC100D75701 /* Info.plist */,
+			);
+			path = PocketConfuciusUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0E8DE7B24EF2BBE00D75701 /* PocketConfucius */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0E8DEA624EF2BC100D75701 /* Build configuration list for PBXNativeTarget "PocketConfucius" */;
+			buildPhases = (
+				A0E8DE7824EF2BBE00D75701 /* Sources */,
+				A0E8DE7924EF2BBE00D75701 /* Frameworks */,
+				A0E8DE7A24EF2BBE00D75701 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PocketConfucius;
+			productName = PocketConfucius;
+			productReference = A0E8DE7C24EF2BBE00D75701 /* PocketConfucius.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0E8DE9124EF2BC100D75701 /* PocketConfuciusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0E8DEA924EF2BC100D75701 /* Build configuration list for PBXNativeTarget "PocketConfuciusTests" */;
+			buildPhases = (
+				A0E8DE8E24EF2BC100D75701 /* Sources */,
+				A0E8DE8F24EF2BC100D75701 /* Frameworks */,
+				A0E8DE9024EF2BC100D75701 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0E8DE9424EF2BC100D75701 /* PBXTargetDependency */,
+			);
+			name = PocketConfuciusTests;
+			productName = PocketConfuciusTests;
+			productReference = A0E8DE9224EF2BC100D75701 /* PocketConfuciusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0E8DE9C24EF2BC100D75701 /* PocketConfuciusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0E8DEAC24EF2BC100D75701 /* Build configuration list for PBXNativeTarget "PocketConfuciusUITests" */;
+			buildPhases = (
+				A0E8DE9924EF2BC100D75701 /* Sources */,
+				A0E8DE9A24EF2BC100D75701 /* Frameworks */,
+				A0E8DE9B24EF2BC100D75701 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0E8DE9F24EF2BC100D75701 /* PBXTargetDependency */,
+			);
+			name = PocketConfuciusUITests;
+			productName = PocketConfuciusUITests;
+			productReference = A0E8DE9D24EF2BC100D75701 /* PocketConfuciusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0E8DE7424EF2BBE00D75701 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Crystal Lake Central";
+				TargetAttributes = {
+					A0E8DE7B24EF2BBE00D75701 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					A0E8DE9124EF2BC100D75701 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = A0E8DE7B24EF2BBE00D75701;
+					};
+					A0E8DE9C24EF2BC100D75701 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = A0E8DE7B24EF2BBE00D75701;
+					};
+				};
+			};
+			buildConfigurationList = A0E8DE7724EF2BBE00D75701 /* Build configuration list for PBXProject "PocketConfucius" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0E8DE7324EF2BBE00D75701;
+			productRefGroup = A0E8DE7D24EF2BBE00D75701 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0E8DE7B24EF2BBE00D75701 /* PocketConfucius */,
+				A0E8DE9124EF2BC100D75701 /* PocketConfuciusTests */,
+				A0E8DE9C24EF2BC100D75701 /* PocketConfuciusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0E8DE7A24EF2BBE00D75701 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0E8DE8C24EF2BC100D75701 /* LaunchScreen.storyboard in Resources */,
+				A0E8DE8924EF2BC100D75701 /* Assets.xcassets in Resources */,
+				A0E8DE8724EF2BBE00D75701 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0E8DE9024EF2BC100D75701 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0E8DE9B24EF2BC100D75701 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0E8DE7824EF2BBE00D75701 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0E8DE8424EF2BBE00D75701 /* ViewController.swift in Sources */,
+				A0E8DE8024EF2BBE00D75701 /* AppDelegate.swift in Sources */,
+				A0E8DE8224EF2BBE00D75701 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0E8DE8E24EF2BC100D75701 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0E8DE9724EF2BC100D75701 /* PocketConfuciusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0E8DE9924EF2BC100D75701 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0E8DEA224EF2BC100D75701 /* PocketConfuciusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0E8DE9424EF2BC100D75701 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0E8DE7B24EF2BBE00D75701 /* PocketConfucius */;
+			targetProxy = A0E8DE9324EF2BC100D75701 /* PBXContainerItemProxy */;
+		};
+		A0E8DE9F24EF2BC100D75701 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0E8DE7B24EF2BBE00D75701 /* PocketConfucius */;
+			targetProxy = A0E8DE9E24EF2BC100D75701 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0E8DE8524EF2BBE00D75701 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0E8DE8624EF2BBE00D75701 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0E8DE8A24EF2BC100D75701 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0E8DE8B24EF2BC100D75701 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0E8DEA424EF2BC100D75701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0E8DEA524EF2BC100D75701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0E8DEA724EF2BC100D75701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AD43B52RLX;
+				INFOPLIST_FILE = PocketConfucius/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CLC.PocketConfucius;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0E8DEA824EF2BC100D75701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AD43B52RLX;
+				INFOPLIST_FILE = PocketConfucius/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CLC.PocketConfucius;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A0E8DEAA24EF2BC100D75701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AD43B52RLX;
+				INFOPLIST_FILE = PocketConfuciusTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CLC.PocketConfuciusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketConfucius.app/PocketConfucius";
+			};
+			name = Debug;
+		};
+		A0E8DEAB24EF2BC100D75701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AD43B52RLX;
+				INFOPLIST_FILE = PocketConfuciusTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CLC.PocketConfuciusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PocketConfucius.app/PocketConfucius";
+			};
+			name = Release;
+		};
+		A0E8DEAD24EF2BC100D75701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AD43B52RLX;
+				INFOPLIST_FILE = PocketConfuciusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CLC.PocketConfuciusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PocketConfucius;
+			};
+			name = Debug;
+		};
+		A0E8DEAE24EF2BC100D75701 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AD43B52RLX;
+				INFOPLIST_FILE = PocketConfuciusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CLC.PocketConfuciusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PocketConfucius;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0E8DE7724EF2BBE00D75701 /* Build configuration list for PBXProject "PocketConfucius" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0E8DEA424EF2BC100D75701 /* Debug */,
+				A0E8DEA524EF2BC100D75701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0E8DEA624EF2BC100D75701 /* Build configuration list for PBXNativeTarget "PocketConfucius" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0E8DEA724EF2BC100D75701 /* Debug */,
+				A0E8DEA824EF2BC100D75701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0E8DEA924EF2BC100D75701 /* Build configuration list for PBXNativeTarget "PocketConfuciusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0E8DEAA24EF2BC100D75701 /* Debug */,
+				A0E8DEAB24EF2BC100D75701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0E8DEAC24EF2BC100D75701 /* Build configuration list for PBXNativeTarget "PocketConfuciusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0E8DEAD24EF2BC100D75701 /* Debug */,
+				A0E8DEAE24EF2BC100D75701 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0E8DE7424EF2BBE00D75701 /* Project object */;
+}

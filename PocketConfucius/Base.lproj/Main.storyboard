@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PocketConfucius" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Confucius" translatesAutoresizingMaskIntoConstraints="NO" id="caz-M6-cge">
+                                <rect key="frame" x="0.0" y="385.33333333333326" width="375" height="428.66666666666674"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="caz-M6-cge" secondAttribute="height" multiplier="776:887" id="TSy-Vx-gEI"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aKW-vn-TmF">
+                                <rect key="frame" x="0.0" y="44" width="375" height="341.33333333333331"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="caz-M6-cge" firstAttribute="top" secondItem="aKW-vn-TmF" secondAttribute="bottom" id="0aO-R1-ieM"/>
+                            <constraint firstItem="aKW-vn-TmF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="0jW-eU-wN2"/>
+                            <constraint firstAttribute="trailing" secondItem="caz-M6-cge" secondAttribute="trailing" id="EWe-Oa-ONv"/>
+                            <constraint firstItem="aKW-vn-TmF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="F7J-6n-6pl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aKW-vn-TmF" secondAttribute="trailing" id="StW-qX-q0W"/>
+                            <constraint firstAttribute="bottom" secondItem="caz-M6-cge" secondAttribute="bottom" constant="-2" id="YMh-AN-eyq"/>
+                            <constraint firstItem="caz-M6-cge" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="ohA-mA-NcG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="hJt-Bo-s41" appends="YES" id="5ZG-Hc-ZC6"/>
+                            <outletCollection property="gestureRecognizers" destination="QvF-Mb-fmD" appends="YES" id="0tC-i5-k3S"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="aKW-vn-TmF" id="nmR-NB-gQI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="left" id="hJt-Bo-s41">
+                    <connections>
+                        <action selector="onSwipeLeft:" destination="BYZ-38-t0r" id="XDx-me-GYk"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="QvF-Mb-fmD">
+                    <connections>
+                        <action selector="onSwipeRight:" destination="BYZ-38-t0r" id="8ob-rr-Jc4"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="129.91071428571428"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Confucius" width="776" height="887"/>
+    </resources>
+</document>
