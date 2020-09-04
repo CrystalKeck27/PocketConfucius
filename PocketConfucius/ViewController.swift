@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     
     let confuciusTexts: [String] = [
         "Confucius say, man who keep feet on ground have trouble putting on pants.",
-        "Confucius say, Confucius say, man who run before bus get tired.",
+        "Confucius say, man who run before bus get tired.",
         "Confucius say, man who run behind bus get exhausted.",
         "Confucius say, man who sleep in bed of nails is holy.",
         "Confucius say, man who leap off cliff jump to conclusion.",
