@@ -9,7 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let testForClass = 5
+    
     @IBOutlet weak var label: UILabel!
+    
     
     let initTexts: [String] = [
         "Congrats! You found an easter egg.",
